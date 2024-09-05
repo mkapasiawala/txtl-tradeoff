@@ -1,0 +1,526 @@
+LOCUS       pMK10                   3067 bp    DNA     circular UNA 08-NOV-2023
+DEFINITION  pTet - F30-Pepper aptamer - UTR1 - mTurq2 - T12m.
+ACCESSION   urn.local.manis.4w-gz0vh1i
+VERSION     urn.local.manis.4w-gz0vh1i
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..62
+                     /note="Geneious type: Concatenated sequence"
+                     /standard_name="P9d (concatenated sequence 1)"
+     misc_feature    1..4
+                     /note="Geneious type: ligation"
+                     /standard_name="Ligation"
+     protein_bind    5..23
+                     /gene="tetO"
+                     /bound_moiety="tetracycline repressor TetR"
+                     /note="bacterial operator O2 for the tetR and tetA genes;
+                     color: #31849b"
+                     /standard_name="tet operator"
+     regulatory      24..58
+                     /note="Geneious type: promoter"
+                     /standard_name="pTet"
+     protein_bind    30..48
+                     /gene="tetO"
+                     /bound_moiety="tetracycline repressor TetR"
+                     /note="bacterial operator O2 for the tetR and tetA genes;
+                     color: #31849b"
+                     /standard_name="tet operator"
+     misc_feature    59..62
+                     /note="Geneious type: ligation"
+                     /standard_name="Ligation"
+     misc_feature    59..202
+                     /note="Geneious type: Concatenated sequence"
+                     /standard_name="U27m (concatenated sequence 2)"
+     mRNA            63..163
+                     /standard_name="F30-Pepper aptamer"
+     mRNA            63..104
+                     /standard_name="F30 Scaffold 1"
+     mRNA            105..147
+                     /standard_name="Pepper aptamer"
+     mRNA            148..163
+                     /standard_name="F30 Scaffold 2"
+     5'UTR           164..198
+                     /standard_name="UTR1"
+     misc_feature    199..202
+                     /note="Geneious type: ligation"
+                     /standard_name="Ligation"
+     misc_feature    199..956
+                     /note="Geneious type: Concatenated sequence"
+                     /standard_name="C184m (concatenated sequence 3)"
+     CDS             <203..952
+                     /standard_name="mTurquiose2-GGGGS-His6x"
+     misc_feature    953..956
+                     /note="Geneious type: ligation"
+                     /standard_name="Ligation"
+     misc_feature    953..1050
+                     /note="Geneious type: Concatenated sequence"
+                     /standard_name="T12m (concatenated sequence 4)"
+     regulatory      957..1046
+                     /note="Geneious type: terminator"
+                     /standard_name="ECK120029600 (strongest natural Voigt,
+                     378x)"
+     misc_feature    1047..1050
+                     /note="Geneious type: ligation"
+                     /standard_name="Ligation"
+     misc_feature    1047..4
+                     /note="Geneious type: Concatenated sequence"
+                     /standard_name="v37m (DVCK-mScar-AE) (concatenated
+                     sequence 5)"
+     misc_feature    1059..1079
+                     /note="universal suffix for all parts"
+                     /standard_name="BioBrick suffix"
+     regulatory      1080..1137
+                     /note="Geneious type: terminator"
+                     /note="This putative transcriptin terminator from the E. 
+                     coli his operon has a 2-bp deletion introduced during
+                     synthesis. Its efficiency has not been determined."
+                     /standard_name="his operon terminator"
+     primer_bind     complement(1211..1231)
+                     /standard_name="SC190 / Part.Seq.REV"
+     CDS             1397..2212
+                     /codon_start=1
+                     /product="aminoglycoside phosphotransferase"
+                     /note="confers resistance to kanamycin in bacteria or G418
+                      (Geneticin(R)) in eukaryotes"
+                     /standard_name="KanR"
+     misc_feature    2327..2336
+                     /standard_name="Origin"
+     rep_origin      complement(2334..2922)
+     misc_feature    complement(2337..2886)
+                     /standard_name="RNA II transcript"
+     regulatory      2740..2769
+                     /note="Geneious type: promoter"
+                     /standard_name="RNA I promoter"
+     misc_feature    2776..2883
+                     /standard_name="RNA I transcript"
+     regulatory      2854..2884
+                     /note="Geneious type: terminator"
+                     /standard_name="RNAI Terminator"
+     regulatory      complement(2894..2922)
+                     /note="Geneious type: promoter"
+                     /standard_name="RNAII promoter"
+     misc_feature    2907..2913
+                     /standard_name="between -10 and -35 of RNA II promoter"
+     primer_bind     2962..2982
+                     /standard_name="SC189 / Part.Seq.FOR"
+     regulatory      2985..3028
+                     /note="Geneious type: terminator"
+                     /note="putative bacterial transcription terminator"
+                     /standard_name="bacterial terminator"
+     misc_feature    3031..3052
+                     /note="BioBrick prefix for parts that do not start with 
+                     ""ATG"""
+                     /standard_name="BioBrick prefix"
+ORIGIN      
+        1 ggagtcccta tcagtgatag agattgacat ccctatcagt gatagagata ctgagcacta
+       61 ctttgccatg tgtatgtggg ttcgcccaca tactctgatg atccccaatc gtggcgtgtc
+      121 ggcctgcttc ggcaggcact ggcgccggga tcattcatgg caaaataatt ttgtttaact
+      181 ttaagaagga gatataccaa tggtaagtaa gggcgaagag ttgtttactg gggtagtccc
+      241 gatcctggtc gagctggatg gggacgttaa cggccataaa tttagcgtgt cgggtgaagg
+      301 cgagggggac gcgacctacg ggaaactgac cttgaagttt atctgtacga ccgggaaact
+      361 tccggtgcca tggcctacac tcgtcacgac cttgagctgg ggtgttcaat gctttgcacg
+      421 ttacccagac catatgaaac agcatgattt cttcaaaagt gcaatgccag aagggtatgt
+      481 tcaagagcgc accatctttt ttaaggacga tggcaactat aagacccgtg ccgaagtcaa
+      541 gttcgaaggt gacacccttg tcaaccgtat cgagttgaaa ggtatcgact ttaaggaaga
+      601 tgggaatatc ctgggtcata aacttgaata taattacttt tccgacaatg tttatatcac
+      661 agccgacaaa caaaaaaacg gtatcaaggc caatttcaag attcggcata acatcgaaga
+      721 tgggggggtt caactcgctg atcattacca gcagaataca cctatcggcg acggcccagt
+      781 cttattacct gataatcatt accttagcac ccaatccaaa ctcagcaagg atccaaacga
+      841 aaagcgcgat cacatggtgc ttttggagtt tgtcactgct gctggtatta cattgggtat
+      901 ggatgaattg tacaaagggg gcggcggtag ccatcatcat catcaccatt aaaggtttca
+      961 gccaaaaaac ttaagaccgc cggtcttgtc cactaccttg cagtaatgcg gtggacagga
+     1021 tcggcggttt tcttttctct tctcaagctt atgtcttcta ctagtagcgg ccgctgcagt
+     1081 ccggcaaaaa agggcaaggt gtcaccaccc tgcccttttt ctttaaaacc gaaaagatta
+     1141 cttcgcgtta tgcaggcttc ctcgctcact gactcgctgc gctcggtcgt tcggctgcgg
+     1201 cgagcggtat cagctcactc aaaggcggta agtcgcgtgt tatacgcccg ttatccatgg
+     1261 gtatggacag ttttcccttt gatatgtaac gcacgttgtg tctcaaaatc tctgatgtta
+     1321 cattgcacaa gataaaaata tatcatcatg aacaataaaa ctgtctgctt acataaacag
+     1381 taatacaagg ggtgttatga gccatattca acgggaaacg tcttgctccc gtccgcgctt
+     1441 aaactccaac atggacgctg atttatatgg gtataaatgg gctcgcgata atgtcgggca
+     1501 atcaggtgcg acaatctatc gcttgtatgg gaagcccgat gcgccagagt tgtttctgaa
+     1561 acatggcaaa ggtagcgttg ccaatgatgt tacagatgag atggtccgtc tcaactggct
+     1621 gacggagttt atgcctctcc cgaccatcaa gcattttatc cgtactcctg atgatgcgtg
+     1681 gttactcacc accgcgattc ctgggaaaac agccttccag gtattagaag aatatcctga
+     1741 ttcaggtgaa aatattgttg atgcgctggc cgtgttcctg cgccggttac attcgattcc
+     1801 tgtttgtaat tgtcctttta acagcgatcg tgtatttcgt cttgctcagg cgcaatcacg
+     1861 catgaataac ggtttggttg atgcgagtga ttttgatgac gagcgtaatg gctggcctgt
+     1921 tgaacaagtc tggaaagaaa tgcacaagct cttgccattc tcaccggatt cagtcgtcac
+     1981 tcatggtgat ttctcacttg ataaccttat ttttgacgag gggaaattaa taggttgtat
+     2041 tgatgttgga cgggtcggaa tcgcagaccg ttaccaggac cttgccattc tttggaactg
+     2101 cctcggtgag ttttctcctt cattacagaa acggcttttt caaaaatatg gtattgataa
+     2161 tcctgatatg aataaattgc agtttcattt gatgctcgat gagtttttct aataatacta
+     2221 gcagaaatca tccttagcga aagctaagga ttttttttat ctgattaccg cctttgagtg
+     2281 agcgtcgacc tagtcctagc caggaaccgt aaaaaggccg cgttgctggc gtttttccat
+     2341 aggctccgcc cccctgacga gcatcacaaa aatcgacgct caagtcagag gtggcgaaac
+     2401 ccgacaggac tataaagata ccaggcgttt ccccctggaa gctccctcgt gcgctctcct
+     2461 gttccgaccc tgccgcttac cggatacctg tccgcctttc tcccttcggg aagcgtggcg
+     2521 ctttctcata gctcacgctg taggtatctc agttcggtgt aggtcgttcg ctccaagctg
+     2581 ggctgtgtgc acgaaccccc cgttcagccc gaccgctgcg ccttatccgg taactatcgt
+     2641 cttgagtcca acccggtaag acacgactta tcgccactgg cagcagccac tggtaacagg
+     2701 attagcagag cgaggtatgt aggcggtgct acagagttct tgaagtggtg gcctaactac
+     2761 ggctacacta gaagaacagt atttggtatc tgcgctctgc tgaagccagt taccttcgga
+     2821 aaaagagttg gtagctcttg atccggcaaa caaaccaccg ctggtagcgg tggttttttt
+     2881 gtttgcaagc agcagattac gcgcagaaaa aaaggatctc aagaagatcc tttgatcttt
+     2941 tctacggggt ctgacgcgca taaataggcg tatcacgagg cagaatttca gataaaaaaa
+     3001 atccttagct ttcgctaagg atgatttctg gaattcgcgg ccgcttctag agactagtgg
+     3061 aagacat
+//
+LOCUS       pMK18                   3224 bp ds-DNA     circular     07-FEB-2024
+DEFINITION  pT7-MGapt-UTR1-deGFP-T7term; started from DSG028 fixed and added a
+            few extra bases to T7 promoter.
+ACCESSION   urn.local.manis.lq-hax912y
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+COMMENT     From plasmid pBEST-OR2-OR1-Pr-UTR1-deGFP-T500, insertion of
+            MGapt-UTR1 between NheI-NcoI ApEinfo:methylated:1.
+FEATURES             Location/Qualifiers
+     primer_bind     75..94
+                     /standard_name="75 F"
+     primer_bind     191..212
+                     /standard_name="DSG_mGaptGFP28_FOR"
+     primer_bind     195..212
+                     /standard_name="ZS3036F"
+     misc_feature    complement(272..291)
+                     /note="Geneious type: primer_bind_reverse"
+                     /standard_name="addT7_R"
+     primer_bind     complement(282..330)
+                     /standard_name="pT7_67_R"
+     primer_bind     291..330
+                     /standard_name="pT7_67_F"
+     regulatory      292..314
+                     /note="Geneious type: promoter"
+                     /standard_name="T7 promoter"
+     misc_feature    312..314
+                     /note="Geneious type: Editing History Insertion"
+                     /standard_name
+     misc_feature    321..358
+                     /standard_name="MG aptamer"
+     misc_feature    complement(340..359)
+                     /note="Geneious type: primer_bind_reverse"
+                     /standard_name="delRBS_R"
+     5'UTR           360..392
+                     /standard_name="UTR1"
+     CDS             395..1072
+                     /standard_name="deGFP"
+     primer_bind     395..414
+                     /standard_name="delRBS_F"
+     misc_feature    complement(600..618)
+                     /note="Geneious type: primer_bind_reverse"
+                     /standard_name="686 R"
+     misc_feature    complement(<1073..1105)
+                     /standard_name="T7term_ligation_rev"
+     regulatory      1079..1126
+                     /note="Geneious type: terminator"
+                     /standard_name="T7 terminator"
+     misc_feature    1106..1143
+                     /standard_name="T7term_ligation_fwd"
+     misc_feature    complement(1200..1226)
+                     /note="Geneious type: primer_bind_reverse"
+                     /standard_name="ZS3036R"
+     rep_origin      complement(1420..2102)
+     primer_bind     1924..1949
+                     /standard_name="pT7_67_2F"
+     primer_bind     complement(1924..1949)
+                     /standard_name="pT7_67_1R"
+     CDS             complement(2200..2859)
+                     /standard_name="AmpR"
+ORIGIN      
+        1 ataaaaatag gcgtatcacg aggccctttc gtcttcaaga attctggcga atcctctgac
+       61 cagccagaaa acgacctttc tgtggtgaaa ccggatgctg caattcagag cggcagcaag
+      121 tgggggacag cagaagacct gaccgccgca gagtggatgt ttgacatggt gaagactatc
+      181 gcaccatcag ccagaaaacc gaattttgct gggtgggcta acgatatccg cggatcccga
+      241 ctgatgcgtg aacgtgacgg acgtaaccac cgcgacatgt gtgtgctgtt ctaatacgac
+      301 tcactatagg gagagctagc gggatcccga ctggcgagag ccaggtaacg aatggatcca
+      361 ataattttgt ttaactttaa gaaggagata taccatggag cttttcactg gcgttgttcc
+      421 catcctggtc gagctggacg gcgacgtaaa cggccacaag ttcagcgtgt ccggcgaggg
+      481 cgagggcgat gccacctacg gcaagctgac cctgaagttc atctgcacca ccggcaagct
+      541 gcccgtgccc tggcccaccc tcgtgaccac cctgacctac ggcgtgcagt gcttcagccg
+      601 ctaccccgac cacatgaagc agcacgactt cttcaagtcc gccatgcccg aaggctacgt
+      661 ccaggagcgc accatcttct tcaaggacga cggcaactac aagacccgcg ccgaggtgaa
+      721 gttcgagggc gacaccctgg tgaaccgcat cgagctgaag ggcatcgact tcaaggagga
+      781 cggcaacatc ctggggcaca agctggagta caactacaac agccacaacg tctatatcat
+      841 ggccgacaag cagaagaacg gcatcaaggt gaacttcaag atccgccaca acatcgagga
+      901 cggcagcgtg cagctcgccg accactacca gcagaacacc cccatcggcg acggccccgt
+      961 gctgctgccc gacaaccact acctgagcac ccagtccgcc ctgagcaaag accccaacga
+     1021 gaagcgcgat cacatggtcc tgctggagtt cgtgaccgcc gccgggatct aactcgagct
+     1081 agcataaccc cttggggcct ctaaacgggt cttgaggggt tttttggtcg accgatgccc
+     1141 ttgagagcct tcaacccagt cagctccttc cggtgggcgc ggggcatgac tatcgtcgcc
+     1201 gcacttatga ctgtcttctt tatcatgcaa ctcgtaggac aggtgccggc agcgctcttc
+     1261 cgcttcctcg ctcactgact cgctgcgctc ggtcgttcgg ctgcggcgag cggtatcagc
+     1321 tcactcaaag gcggtaatac ggttatccac agaatcaggg gataacgcag gaaagaacat
+     1381 gtgagcaaaa ggccagcaaa aggccaggaa ccgtaaaaag gccgcgttgc tggcgttttt
+     1441 ccataggctc cgcccccctg acgagcatca caaaaatcga cgctcaagtc agaggtggcg
+     1501 aaacccgaca ggactataaa gataccaggc gtttccccct ggaagctccc tcgtgcgctc
+     1561 tcctgttccg accctgccgc ttaccggata cctgtccgcc tttctccctt cgggaagcgt
+     1621 ggcgctttct caatgctcac gctgtaggta tctcagttcg gtgtaggtcg ttcgctccaa
+     1681 gctgggctgt gtgcacgaac cccccgttca gcccgaccgc tgcgccttat ccggtaacta
+     1741 tcgtcttgag tccaacccgg taagacacga cttatcgcca ctggcagcag ccactggtaa
+     1801 caggattagc agagcgaggt atgtaggcgg tgctacagag ttcttgaagt ggtggcctaa
+     1861 ctacggctac actagaagga cagtatttgg tatctgcgct ctgctgaagc cagttacctt
+     1921 cggaaaaaga gttggtagct cttgatccgg caaacaaacc accgctggta gcggtggttt
+     1981 ttttgtttgc aagcagcaga ttacgcgcag aaaaaaagga tctcaagaag atcctttgat
+     2041 cttttctacg gggtctgacg ctcagtggaa cgaaaactca cgttaaggga ttttggtcat
+     2101 gagattatca aaaaggatct tcacctagat ccttttaaat taaaaatgaa gttttaaatc
+     2161 aatctaaagt atatatgagt aaacttggtc tgacagttac caatgcttaa tcagtgaggc
+     2221 acctatctca gcgatctgtc tatttcgttc atccatagtt gcctgactcc ccgtcgtgta
+     2281 gataactacg atacgggagg gcttaccatc tggccccagt gctgcaatga taccgcgaga
+     2341 cccacgctca ccggctccag atttatcagc aataaaccag ccagccggaa gggccgagcg
+     2401 cagaagtggt cctgcaactt tatccgcctc catccagtct attaattgtt gccgggaagc
+     2461 tagagtaagt agttcgccag ttaatagttt gcgcaacgtt gttgccattg ctacaggcat
+     2521 cgtggtgtca cgctcgtcgt ttggtatggc ttcattcagc tccggttccc aacgatcaag
+     2581 gcgagttaca tgatccccca tgttgtgcaa aaaagcggtt agctccttcg gtcctccgat
+     2641 cgttgtcaga agtaagttgg ccgcagtgtt atcactcatg gttatggcag cactgcataa
+     2701 ttctcttact gtcatgccat ccgtaagatg cttttctgtg actggtgagt actcaaccaa
+     2761 gtcattctga gaatagtgta tgcggcgacc gagttgctct tgcccggcgt caatacggga
+     2821 taataccgcg ccacatagca gaactttaaa agtgctcatc attggaaaac gttcttcggg
+     2881 gcgaaaactc tcaaggatct taccgctgtt gagatccagt tcgatgtaac ccactcgtgc
+     2941 acccaactga tcttcagcat cttttacttt caccagcgtt tctgggtgag caaaaacagg
+     3001 aaggcaaaat gccgcaaaaa agggaataag ggcgacacgg aaatgttgaa tactcatact
+     3061 cttccttttt caatattatt gaagcattta tcagggttat tgtctcatga gcggatacat
+     3121 atttgaatgt atttagaaaa ataaacaaat aggggttccg cgcacatttc cccgaaaagt
+     3181 gccacctgac gtctaagaaa ccattattat catgacatta acct
+//
+LOCUS       pMK19                   3237 bp ds-DNA     circular     07-FEB-2024
+DEFINITION  pZJQ.27 except with pTet instead of pOR1OR2.
+ACCESSION   urn.local.manis.og-haxd39o
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+COMMENT     From plasmid pBEST-OR2-OR1-Pr-UTR1-deGFP-T500, insertion of
+            MGapt-UTR1 between NheI-NcoI ApEinfo:methylated:1.
+FEATURES             Location/Qualifiers
+     primer_bind     75..94
+                     /standard_name="75 F"
+     primer_bind     191..212
+                     /standard_name="DSG_mGaptGFP28_FOR"
+     primer_bind     195..212
+                     /standard_name="ZS3036F"
+     misc_feature    240..1177
+                     /note="Geneious type: motif"
+                     /standard_name="gBlock"
+     primer_bind     complement(272..331)
+                     /standard_name="pTet_67_2R"
+     regulatory      292..345
+                     /note="Geneious type: promoter"
+                     /standard_name="pTet"
+     protein_bind    292..310
+                     /gene="tetO"
+                     /bound_moiety="tetracycline repressor TetR"
+                     /note="bacterial operator O2 for the tetR and tetA genes;
+                     color: #31849b"
+                     /standard_name="tet operator"
+     misc_feature    293..345
+                     /note="Geneious type: Editing History Replacement"
+                     /standard_name="GAGCTAACACCGTGCGTGTTGACAATTTTACCTCTGGCGGTG
+                     ATAATGGTTGCA"
+     primer_bind     302..361
+                     /standard_name="pTet_67_1F"
+     regulatory      311..345
+                     /note="Geneious type: promoter"
+                     /standard_name="pTet"
+     protein_bind    317..335
+                     /gene="tetO"
+                     /bound_moiety="tetracycline repressor TetR"
+                     /note="bacterial operator O2 for the tetR and tetA genes;
+                     color: #31849b"
+                     /standard_name="tet operator"
+     misc_feature    352..389
+                     /standard_name="MG aptamer"
+     misc_feature    complement(371..390)
+                     /note="Geneious type: primer_bind_reverse"
+                     /standard_name="delRBS_R"
+     5'UTR           391..423
+                     /standard_name="UTR1"
+     CDS             426..1103
+                     /standard_name="deGFP"
+     primer_bind     426..445
+                     /standard_name="delRBS_F"
+     misc_feature    complement(631..649)
+                     /note="Geneious type: primer_bind_reverse"
+                     /standard_name="686 R"
+     primer_bind     complement(1092..1151)
+                     /standard_name="ZJQ.A27R"
+     primer_bind     1101..1160
+                     /standard_name="ZJQ.A26F"
+     source          <1110..>1139
+     regulatory      1110..1139
+                     /note="Geneious type: terminator"
+                     /note="T500"
+     misc_feature    complement(1213..1239)
+                     /note="Geneious type: primer_bind_reverse"
+                     /standard_name="ZS3036R"
+     rep_origin      complement(1433..2115)
+     CDS             complement(2213..2872)
+                     /standard_name="AmpR"
+ORIGIN      
+        1 ataaaaatag gcgtatcacg aggccctttc gtcttcaaga attctggcga atcctctgac
+       61 cagccagaaa acgacctttc tgtggtgaaa ccggatgctg caattcagag cggcagcaag
+      121 tgggggacag cagaagacct gaccgccgca gagtggatgt ttgacatggt gaagactatc
+      181 gcaccatcag ccagaaaacc gaattttgct gggtgggcta acgatatccg cggatcccga
+      241 ctgatgcgtg aacgtgacgg acgtaaccac cgcgacatgt gtgtgctgtt ctccctatca
+      301 gtgatagaga ttgacatccc tatcagtgat agagatactg agcacgctag cgggatcccg
+      361 actggcgaga gccaggtaac gaatggatcc aataattttg tttaacttta agaaggagat
+      421 ataccatgga gcttttcact ggcgttgttc ccatcctggt cgagctggac ggcgacgtaa
+      481 acggccacaa gttcagcgtg tccggcgagg gcgagggcga tgccacctac ggcaagctga
+      541 ccctgaagtt catctgcacc accggcaagc tgcccgtgcc ctggcccacc ctcgtgacca
+      601 ccctgaccta cggcgtgcag tgcttcagcc gctaccccga ccacatgaag cagcacgact
+      661 tcttcaagtc cgccatgccc gaaggctacg tccaggagcg caccatcttc ttcaaggacg
+      721 acggcaacta caagacccgc gccgaggtga agttcgaggg cgacaccctg gtgaaccgca
+      781 tcgagctgaa gggcatcgac ttcaaggagg acggcaacat cctggggcac aagctggagt
+      841 acaactacaa cagccacaac gtctatatca tggccgacaa gcagaagaac ggcatcaagg
+      901 tgaacttcaa gatccgccac aacatcgagg acggcagcgt gcagctcgcc gaccactacc
+      961 agcagaacac ccccatcggc gacggccccg tgctgctgcc cgacaaccac tacctgagca
+     1021 cccagtccgc cctgagcaaa gaccccaacg agaagcgcga tcacatggtc ctgctggagt
+     1081 tcgtgaccgc cgccgggatc taactcgagc aaagcccgcc gaaaggcggg cttttctgtg
+     1141 tcgaccgatg cccttgagag ccttcaaccc agtcagctcc ttccggtggg cgcggggcat
+     1201 gactatcgtc gccgcactta tgactgtctt ctttatcatg caactcgtag gacaggtgcc
+     1261 ggcagcgctc ttccgcttcc tcgctcactg actcgctgcg ctcggtcgtt cggctgcggc
+     1321 gagcggtatc agctcactca aaggcggtaa tacggttatc cacagaatca ggggataacg
+     1381 caggaaagaa catgtgagca aaaggccagc aaaaggccag gaaccgtaaa aaggccgcgt
+     1441 tgctggcgtt tttccatagg ctccgccccc ctgacgagca tcacaaaaat cgacgctcaa
+     1501 gtcagaggtg gcgaaacccg acaggactat aaagatacca ggcgtttccc cctggaagct
+     1561 ccctcgtgcg ctctcctgtt ccgaccctgc cgcttaccgg atacctgtcc gcctttctcc
+     1621 cttcgggaag cgtggcgctt tctcaatgct cacgctgtag gtatctcagt tcggtgtagg
+     1681 tcgttcgctc caagctgggc tgtgtgcacg aaccccccgt tcagcccgac cgctgcgcct
+     1741 tatccggtaa ctatcgtctt gagtccaacc cggtaagaca cgacttatcg ccactggcag
+     1801 cagccactgg taacaggatt agcagagcga ggtatgtagg cggtgctaca gagttcttga
+     1861 agtggtggcc taactacggc tacactagaa ggacagtatt tggtatctgc gctctgctga
+     1921 agccagttac cttcggaaaa agagttggta gctcttgatc cggcaaacaa accaccgctg
+     1981 gtagcggtgg tttttttgtt tgcaagcagc agattacgcg cagaaaaaaa ggatctcaag
+     2041 aagatccttt gatcttttct acggggtctg acgctcagtg gaacgaaaac tcacgttaag
+     2101 ggattttggt catgagatta tcaaaaagga tcttcaccta gatcctttta aattaaaaat
+     2161 gaagttttaa atcaatctaa agtatatatg agtaaacttg gtctgacagt taccaatgct
+     2221 taatcagtga ggcacctatc tcagcgatct gtctatttcg ttcatccata gttgcctgac
+     2281 tccccgtcgt gtagataact acgatacggg agggcttacc atctggcccc agtgctgcaa
+     2341 tgataccgcg agacccacgc tcaccggctc cagatttatc agcaataaac cagccagccg
+     2401 gaagggccga gcgcagaagt ggtcctgcaa ctttatccgc ctccatccag tctattaatt
+     2461 gttgccggga agctagagta agtagttcgc cagttaatag tttgcgcaac gttgttgcca
+     2521 ttgctacagg catcgtggtg tcacgctcgt cgtttggtat ggcttcattc agctccggtt
+     2581 cccaacgatc aaggcgagtt acatgatccc ccatgttgtg caaaaaagcg gttagctcct
+     2641 tcggtcctcc gatcgttgtc agaagtaagt tggccgcagt gttatcactc atggttatgg
+     2701 cagcactgca taattctctt actgtcatgc catccgtaag atgcttttct gtgactggtg
+     2761 agtactcaac caagtcattc tgagaatagt gtatgcggcg accgagttgc tcttgcccgg
+     2821 cgtcaatacg ggataatacc gcgccacata gcagaacttt aaaagtgctc atcattggaa
+     2881 aacgttcttc ggggcgaaaa ctctcaagga tcttaccgct gttgagatcc agttcgatgt
+     2941 aacccactcg tgcacccaac tgatcttcag catcttttac tttcaccagc gtttctgggt
+     3001 gagcaaaaac aggaaggcaa aatgccgcaa aaaagggaat aagggcgaca cggaaatgtt
+     3061 gaatactcat actcttcctt tttcaatatt attgaagcat ttatcagggt tattgtctca
+     3121 tgagcggata catatttgaa tgtatttaga aaaataaaca aataggggtt ccgcgcacat
+     3181 ttccccgaaa agtgccacct gacgtctaag aaaccattat tatcatgaca ttaacct
+//
+LOCUS       pZJQ.27                 3238 bp ds-DNA     circular     26-JAN-2023
+DEFINITION  pBEST-OR1OR2-MGapt-UTR1-deGFP-T12m, started from pDSG028 fixed.
+ACCESSION   urn.local.manis.1b-gwy19cn
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+COMMENT     From plasmid pBEST-OR2-OR1-Pr-UTR1-deGFP-T500, insertion of
+            MGapt-UTR1 between NheI-NcoI ApEinfo:methylated:1.
+FEATURES             Location/Qualifiers
+     primer_bind     75..94
+                     /standard_name="75 F"
+     primer_bind     191..212
+                     /standard_name="DSG_mGaptGFP28_FOR"
+     primer_bind     195..212
+                     /standard_name="ZS3036F"
+     primer_bind     complement(276..335)
+                     /standard_name="ZJQ.A29R"
+     misc_feature    292..346
+                     /note="Geneious type: promoter"
+                     /standard_name="OR2-OR1-Pr"
+     source          <292..>346
+     primer_bind     304..363
+                     /standard_name="ZJQ.A28F"
+     regulatory      311..316
+                     /note="Geneious type: promoter"
+                     /standard_name="-35"
+     regulatory      334..339
+                     /note="Geneious type: promoter"
+                     /standard_name="-10"
+     misc_feature    353..390
+                     /standard_name="MG aptamer"
+     misc_feature    complement(372..391)
+                     /note="Geneious type: primer_bind_reverse"
+                     /standard_name="delRBS_R"
+     5'UTR           392..424
+                     /standard_name="UTR1"
+     CDS             427..1104
+                     /standard_name="deGFP"
+     primer_bind     427..446
+                     /standard_name="delRBS_F"
+     misc_feature    complement(632..650)
+                     /note="Geneious type: primer_bind_reverse"
+                     /standard_name="686 R"
+     primer_bind     complement(1093..1152)
+                     /standard_name="ZJQ.A27R"
+     primer_bind     1102..1161
+                     /standard_name="ZJQ.A26F"
+     regulatory      1111..1140
+                     /note="Geneious type: terminator"
+                     /note="T500"
+     source          <1111..>1140
+     misc_feature    complement(1214..1240)
+                     /note="Geneious type: primer_bind_reverse"
+                     /standard_name="ZS3036R"
+     rep_origin      complement(1434..2116)
+     CDS             complement(2214..2873)
+                     /standard_name="AmpR"
+ORIGIN      
+        1 ataaaaatag gcgtatcacg aggccctttc gtcttcaaga attctggcga atcctctgac
+       61 cagccagaaa acgacctttc tgtggtgaaa ccggatgctg caattcagag cggcagcaag
+      121 tgggggacag cagaagacct gaccgccgca gagtggatgt ttgacatggt gaagactatc
+      181 gcaccatcag ccagaaaacc gaattttgct gggtgggcta acgatatccg cggatcccga
+      241 ctgatgcgtg aacgtgacgg acgtaaccac cgcgacatgt gtgtgctgtt ctgagctaac
+      301 accgtgcgtg ttgacaattt tacctctggc ggtgataatg gttgcagcta gcgggatccc
+      361 gactggcgag agccaggtaa cgaatggatc caataatttt gtttaacttt aagaaggaga
+      421 tataccatgg agcttttcac tggcgttgtt cccatcctgg tcgagctgga cggcgacgta
+      481 aacggccaca agttcagcgt gtccggcgag ggcgagggcg atgccaccta cggcaagctg
+      541 accctgaagt tcatctgcac caccggcaag ctgcccgtgc cctggcccac cctcgtgacc
+      601 accctgacct acggcgtgca gtgcttcagc cgctaccccg accacatgaa gcagcacgac
+      661 ttcttcaagt ccgccatgcc cgaaggctac gtccaggagc gcaccatctt cttcaaggac
+      721 gacggcaact acaagacccg cgccgaggtg aagttcgagg gcgacaccct ggtgaaccgc
+      781 atcgagctga agggcatcga cttcaaggag gacggcaaca tcctggggca caagctggag
+      841 tacaactaca acagccacaa cgtctatatc atggccgaca agcagaagaa cggcatcaag
+      901 gtgaacttca agatccgcca caacatcgag gacggcagcg tgcagctcgc cgaccactac
+      961 cagcagaaca cccccatcgg cgacggcccc gtgctgctgc ccgacaacca ctacctgagc
+     1021 acccagtccg ccctgagcaa agaccccaac gagaagcgcg atcacatggt cctgctggag
+     1081 ttcgtgaccg ccgccgggat ctaactcgag caaagcccgc cgaaaggcgg gcttttctgt
+     1141 gtcgaccgat gcccttgaga gccttcaacc cagtcagctc cttccggtgg gcgcggggca
+     1201 tgactatcgt cgccgcactt atgactgtct tctttatcat gcaactcgta ggacaggtgc
+     1261 cggcagcgct cttccgcttc ctcgctcact gactcgctgc gctcggtcgt tcggctgcgg
+     1321 cgagcggtat cagctcactc aaaggcggta atacggttat ccacagaatc aggggataac
+     1381 gcaggaaaga acatgtgagc aaaaggccag caaaaggcca ggaaccgtaa aaaggccgcg
+     1441 ttgctggcgt ttttccatag gctccgcccc cctgacgagc atcacaaaaa tcgacgctca
+     1501 agtcagaggt ggcgaaaccc gacaggacta taaagatacc aggcgtttcc ccctggaagc
+     1561 tccctcgtgc gctctcctgt tccgaccctg ccgcttaccg gatacctgtc cgcctttctc
+     1621 ccttcgggaa gcgtggcgct ttctcaatgc tcacgctgta ggtatctcag ttcggtgtag
+     1681 gtcgttcgct ccaagctggg ctgtgtgcac gaaccccccg ttcagcccga ccgctgcgcc
+     1741 ttatccggta actatcgtct tgagtccaac ccggtaagac acgacttatc gccactggca
+     1801 gcagccactg gtaacaggat tagcagagcg aggtatgtag gcggtgctac agagttcttg
+     1861 aagtggtggc ctaactacgg ctacactaga aggacagtat ttggtatctg cgctctgctg
+     1921 aagccagtta ccttcggaaa aagagttggt agctcttgat ccggcaaaca aaccaccgct
+     1981 ggtagcggtg gtttttttgt ttgcaagcag cagattacgc gcagaaaaaa aggatctcaa
+     2041 gaagatcctt tgatcttttc tacggggtct gacgctcagt ggaacgaaaa ctcacgttaa
+     2101 gggattttgg tcatgagatt atcaaaaagg atcttcacct agatcctttt aaattaaaaa
+     2161 tgaagtttta aatcaatcta aagtatatat gagtaaactt ggtctgacag ttaccaatgc
+     2221 ttaatcagtg aggcacctat ctcagcgatc tgtctatttc gttcatccat agttgcctga
+     2281 ctccccgtcg tgtagataac tacgatacgg gagggcttac catctggccc cagtgctgca
+     2341 atgataccgc gagacccacg ctcaccggct ccagatttat cagcaataaa ccagccagcc
+     2401 ggaagggccg agcgcagaag tggtcctgca actttatccg cctccatcca gtctattaat
+     2461 tgttgccggg aagctagagt aagtagttcg ccagttaata gtttgcgcaa cgttgttgcc
+     2521 attgctacag gcatcgtggt gtcacgctcg tcgtttggta tggcttcatt cagctccggt
+     2581 tcccaacgat caaggcgagt tacatgatcc cccatgttgt gcaaaaaagc ggttagctcc
+     2641 ttcggtcctc cgatcgttgt cagaagtaag ttggccgcag tgttatcact catggttatg
+     2701 gcagcactgc ataattctct tactgtcatg ccatccgtaa gatgcttttc tgtgactggt
+     2761 gagtactcaa ccaagtcatt ctgagaatag tgtatgcggc gaccgagttg ctcttgcccg
+     2821 gcgtcaatac gggataatac cgcgccacat agcagaactt taaaagtgct catcattgga
+     2881 aaacgttctt cggggcgaaa actctcaagg atcttaccgc tgttgagatc cagttcgatg
+     2941 taacccactc gtgcacccaa ctgatcttca gcatctttta ctttcaccag cgtttctggg
+     3001 tgagcaaaaa caggaaggca aaatgccgca aaaaagggaa taagggcgac acggaaatgt
+     3061 tgaatactca tactcttcct ttttcaatat tattgaagca tttatcaggg ttattgtctc
+     3121 atgagcggat acatatttga atgtatttag aaaaataaac aaataggggt tccgcgcaca
+     3181 tttccccgaa aagtgccacc tgacgtctaa gaaaccatta ttatcatgac attaacct
+//
